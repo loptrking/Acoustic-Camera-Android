@@ -1,0 +1,34 @@
+# Android / Gradle local state
+*.iml
+.gradle/
+.idea/
+.kotlin/
+**/build/
+/build/
+/captures/
+.externalNativeBuild/
+.cxx/
+local.properties
+
+# Codex local workspace state
+.codex/
+
+# Python caches and local environments
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+
+# Local experimental exports (may contain recordings or device/session metadata)
+/result/
+
+# Keep only the latest installable research build in version control
+/release/*.apk
+!/release/AcousticLens-v0.10.4-yaw-diagnostic.apk
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
+*.swp
+*.swo

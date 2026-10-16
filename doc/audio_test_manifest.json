@@ -1,0 +1,79 @@
+[
+  {
+    "file": "test_tone_1kHz_30s_-12dBFS.wav",
+    "frequency_hz": 1000.0,
+    "duration_seconds": 30.0,
+    "sample_rate_hz": 48000,
+    "channels": 1,
+    "encoding": "PCM_16BIT_LE",
+    "peak_dbfs": -12.0,
+    "fade_seconds": 0.25,
+    "frames": 1440000,
+    "sha256": "FFC964E9BCA4AF697E1D0BFD0C1DED0B08302C117B1BFA4D0B6FBADE17554657"
+  },
+  {
+    "file": "test_tone_4kHz_30s_-12dBFS.wav",
+    "frequency_hz": 4000.0,
+    "duration_seconds": 30.0,
+    "sample_rate_hz": 48000,
+    "channels": 1,
+    "encoding": "PCM_16BIT_LE",
+    "peak_dbfs": -12.0,
+    "fade_seconds": 0.25,
+    "frames": 1440000,
+    "sha256": "72D4659B3F8A42F5DF0175C15A9BFA32343E9256E736046960C9B7DF781881A3"
+  },
+  {
+    "file": "test_noise_500Hz-8kHz_30s_-12dBFS.wav",
+    "signal": "deterministic band-limited Gaussian noise",
+    "low_frequency_hz": 500.0,
+    "high_frequency_hz": 8000.0,
+    "duration_seconds": 30.0,
+    "sample_rate_hz": 48000,
+    "channels": 1,
+    "encoding": "PCM_16BIT_LE",
+    "peak_dbfs": -12.0,
+    "fade_seconds": 0.25,
+    "seed": 20260919,
+    "frames": 1440000,
+    "sha256": "BC80304ACD79EA289BDA3D841D7D3683D296CBAE37A8F4F279902702FCFE163B"
+  },
+  {
+    "file": "test_multitone_fft_bins_550-1148Hz_40s_-12dBFS.wav",
+    "signal": "deterministic equal-energy FFT-bin-locked multitone",
+    "frequencies_hz": [
+      550.78125,
+      703.125,
+      855.46875,
+      996.09375,
+      1148.4375
+    ],
+    "initial_phases_rad": [
+      -0.0,
+      0.0,
+      1.2566370614359172,
+      3.7699111843077517,
+      7.5398223686155035
+    ],
+    "duration_seconds": 40.0,
+    "sample_rate_hz": 48000,
+    "channels": 1,
+    "encoding": "PCM_16BIT_LE",
+    "peak_dbfs": -12.0,
+    "fade_seconds": 0.25,
+    "frames": 1920000,
+    "sha256": "9D26B555A40A997EDE805A0184EEAD55F9506958CB0203D25B14A0658717F95B"
+  },
+  {
+    "file": "test_tone_fftbin_550.781Hz_40s_-12dBFS.wav",
+    "frequency_hz": 550.78125,
+    "duration_seconds": 40.0,
+    "sample_rate_hz": 48000,
+    "channels": 1,
+    "encoding": "PCM_16BIT_LE",
+    "peak_dbfs": -12.0,
+    "fade_seconds": 0.25,
+    "frames": 1920000,
+    "sha256": "26BBF9C0F0252714A636A27317DFF6440F1CFA2EB0D8C6945476FC3B3D21D123"
+  }
+]
